@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyNeuralNet", "FuzzyNeuralNet\FuzzyNeuralNet.csproj", "{BA083028-035C-4448-B15E-9658904EBDEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA083028-035C-4448-B15E-9658904EBDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA083028-035C-4448-B15E-9658904EBDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA083028-035C-4448-B15E-9658904EBDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA083028-035C-4448-B15E-9658904EBDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {947F55BC-E240-4148-AFDF-80859C0F88A7}
+	EndGlobalSection
+EndGlobal
