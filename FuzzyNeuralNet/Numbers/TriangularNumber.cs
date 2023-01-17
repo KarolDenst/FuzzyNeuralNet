@@ -35,9 +35,9 @@ namespace FuzzyNeuralNet.Numbers
 
         public static TriangularNumber operator *(TriangularNumber a, TriangularNumber b)
         {
-            double x = new double[] { a.X * b.X, a.X * b.Z, a.Z * b.X, a.Z, b.Z }.Min();
+            double x = new double[] { a.X * b.X, a.X * b.Z, a.Z * b.X, a.Z * b.Z }.Min();
             double y = a.Y * b.Y;
-            double z = new double[] { a.X * b.X, a.X * b.Z, a.Z * b.X, a.Z, b.Z }.Max();
+            double z = new double[] { a.X * b.X, a.X * b.Z, a.Z * b.X, a.Z * b.Z }.Max();
 
             return new TriangularNumber(x, y, z);
         }
